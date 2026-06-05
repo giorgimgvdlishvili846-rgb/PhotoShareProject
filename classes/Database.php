@@ -4,7 +4,7 @@ class Database {
     private $conn;
     
     private $host = "localhost";
-    private $db_name = "photoshare_db"; // ბაზას დაარქვი ეს სახელი phpMyAdmin-ში
+    private $db_name = "photoshare_db"; 
     private $username = "root";
     private $password = "root"; // MAMP default password
 
