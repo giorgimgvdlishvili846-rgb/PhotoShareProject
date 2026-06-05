@@ -5,13 +5,13 @@ require_once __DIR__ . '/Logger.php';
 
 class Post {
     private $db;
-// ... აქედან კოდი გრძელდება უცვლელად ...
+
 
     public function __construct() {
         $this->db = Database::getInstance();
     }
 
-    // 1. ფოტოს ატვირთვა და ბაზაში შენახვა (Create)
+  
    // 1. ფოტოს ატვირთვა და ბაზაში შენახვა (Create)
     public function create($user_id, $title, $file) {
         try {
