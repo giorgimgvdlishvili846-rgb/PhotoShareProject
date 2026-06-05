@@ -5,7 +5,7 @@ require_once __DIR__ . '/Logger.php';
 
 class User {
     private $db;
-// ... აქედან კოდი ჩვეულებრივად გრძელდება უცვლელად ...
+
     
 
     public function __construct() {
